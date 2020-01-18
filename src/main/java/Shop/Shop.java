@@ -15,6 +15,10 @@ public class Shop {
         stock.add(item);
     }
 
+    public void removeFromStock(ISell item){
+        stock.remove(item);
+    }
+
 
 
 }
