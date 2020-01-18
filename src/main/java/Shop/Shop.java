@@ -7,9 +7,11 @@ import java.util.ArrayList;
 public class Shop {
     private ArrayList<ISell> stock;
 
-    public void Shop(){
-        this.stock = new ArrayList<ISell>();
+    public int getStockSize(){
+        return stock.size();
     }
+
+
 
     public void addToStock(ISell item){
         stock.add(item);
@@ -18,6 +20,7 @@ public class Shop {
     public void removeFromStock(ISell item){
         stock.remove(item);
     }
+
 
 
 
