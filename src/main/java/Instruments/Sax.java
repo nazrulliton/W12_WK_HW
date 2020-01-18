@@ -1,6 +1,8 @@
 package Instruments;
 
-public class Sax extends Instrument{
+import behaviours.IPlay;
+
+public class Sax extends Instrument implements IPlay {
     private double numOfValves;
     public Sax(String colour, String type, double buyPrice, double sellPrice, String brand, double numOfValves) {
         super(colour, type, buyPrice, sellPrice, brand);
@@ -9,5 +11,9 @@ public class Sax extends Instrument{
 
     public double getNumOfValves() {
         return numOfValves;
+    }
+
+    public String play() {
+        return "Dadaada";
     }
 }

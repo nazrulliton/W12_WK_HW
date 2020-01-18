@@ -14,5 +14,9 @@ public class SaxTest {
     public void canGetNumOfValves(){
         assertEquals(30, sax.getNumOfValves(), 0.01 );
     }
+    @Test
+    public void canPlay(){
+        assertEquals("Dadaada", sax.play());
+    }
 
 }

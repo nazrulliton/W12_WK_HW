@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c54952ce-97a7-48d8-8797-abb4da257e2a" name="Default Changelist" comment="" />
+    <list default="true" id="c54952ce-97a7-48d8-8797-abb4da257e2a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Sax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Sax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SaxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SaxTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GuitarTest.canPlay">
+  <component name="RunManager" selected="JUnit.SaxTest.canPlay">
     <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -60,16 +63,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GuitarTest" />
       <option name="METHOD_NAME" value="canPlay" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GuitarTest.hasColour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="musicShop" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
-      <option name="METHOD_NAME" value="hasColour" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,13 +88,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SaxTest.canPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SaxTest" />
+      <option name="METHOD_NAME" value="canPlay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SaxTest.canPlay" />
         <item itemvalue="JUnit.GuitarTest.canPlay" />
         <item itemvalue="JUnit.SaxTest.canGetNumOfValves" />
         <item itemvalue="JUnit.PianoTest.canGetNumOfKeys" />
         <item itemvalue="JUnit.GuitarTest" />
-        <item itemvalue="JUnit.GuitarTest.hasColour" />
       </list>
     </recent_temporary>
   </component>
