@@ -52,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PianoTest.canGetNumOfKeys">
+  <component name="RunManager" selected="JUnit.SaxTest.canGetNumOfValves">
     <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,8 +82,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SaxTest.canGetNumOfValves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SaxTest" />
+      <option name="METHOD_NAME" value="canGetNumOfValves" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SaxTest.canGetNumOfValves" />
         <item itemvalue="JUnit.PianoTest.canGetNumOfKeys" />
         <item itemvalue="JUnit.GuitarTest" />
         <item itemvalue="JUnit.GuitarTest.hasColour" />
