@@ -39,5 +39,9 @@ public class GuitarTest {
     public void canPlay(){
         assertEquals("Braap braap", guitar.play());
     }
+    @Test
+    public void checkMarkUp(){
+        assertEquals(200.0, guitar.calcMarkUp(), 0.01);
+    }
 
 }
