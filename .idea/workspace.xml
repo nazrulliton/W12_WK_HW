@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c54952ce-97a7-48d8-8797-abb4da257e2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/behaviours/ISell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviours/ISell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Paino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Paino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Instruments/Paino.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Instruments/Paino.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behaviours/IPlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaviours/IPlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/behaviours/ISell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/behaviours/ISell.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GuitarTest">
+  <component name="RunManager" selected="JUnit.PianoTest.canGetNumOfKeys">
     <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -67,8 +72,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PianoTest.canGetNumOfKeys" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PianoTest" />
+      <option name="METHOD_NAME" value="canGetNumOfKeys" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PianoTest.canGetNumOfKeys" />
         <item itemvalue="JUnit.GuitarTest" />
         <item itemvalue="JUnit.GuitarTest.hasColour" />
       </list>
