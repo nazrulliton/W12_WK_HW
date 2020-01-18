@@ -18,5 +18,8 @@ public class SaxTest {
     public void canPlay(){
         assertEquals("Dadaada", sax.play());
     }
-
+    @Test
+    public void checkMarkUp(){
+        assertEquals(300.0, sax.calcMarkUp(), 0.01);
+    }
 }

@@ -1,8 +1,9 @@
 package Instruments;
 
 import behaviours.IPlay;
+import behaviours.ISell;
 
-public class Sax extends Instrument implements IPlay {
+public class Sax extends Instrument implements IPlay, ISell {
     private double numOfValves;
     public Sax(String colour, String type, double buyPrice, double sellPrice, String brand, double numOfValves) {
         super(colour, type, buyPrice, sellPrice, brand);
@@ -15,5 +16,9 @@ public class Sax extends Instrument implements IPlay {
 
     public String play() {
         return "Dadaada";
+    }
+    public double calcMarkUp() {
+        double result = (getSellPrice()/getBuyPrice()) * 100;
+        return result;
     }
 }
