@@ -10,7 +10,7 @@ public class Shop {
     private ArrayList<ISell> stock;
     private double till;
 
-    public void Shop(String name, double till){
+    public Shop(String name, double till){
         this.name = name;
         this.till = till;
         stock = new ArrayList<ISell>();
