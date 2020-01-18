@@ -11,5 +11,10 @@ public class Shop {
         this.stock = new ArrayList<ISell>();
     }
 
- 
+    public void addToStock(ISell item){
+        stock.add(item);
+    }
+
+
+
 }
