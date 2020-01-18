@@ -14,4 +14,8 @@ public class PianoTest {
     public void canGetNumOfKeys(){
         assertEquals(40,paino.getNumOfKeys(),0.01 );
     }
+    @Test
+    public void canPlau(){
+        assertEquals("Ding Dong", paino.play());
+    }
 }

@@ -48,16 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SaxTest.canPlay">
-    <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="musicShop" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PianoTest.canPlau">
     <configuration name="GuitarTest.canPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,6 +64,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PianoTest" />
       <option name="METHOD_NAME" value="canGetNumOfKeys" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PianoTest.canPlau" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PianoTest" />
+      <option name="METHOD_NAME" value="canPlau" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PianoTest.canPlau" />
         <item itemvalue="JUnit.SaxTest.canPlay" />
         <item itemvalue="JUnit.GuitarTest.canPlay" />
         <item itemvalue="JUnit.SaxTest.canGetNumOfValves" />
         <item itemvalue="JUnit.PianoTest.canGetNumOfKeys" />
-        <item itemvalue="JUnit.GuitarTest" />
       </list>
     </recent_temporary>
   </component>
