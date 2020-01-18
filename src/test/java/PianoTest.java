@@ -18,4 +18,8 @@ public class PianoTest {
     public void canPlay(){
         assertEquals("Ding Dong", paino.play());
     }
+    @Test
+    public void checkMarkUp(){
+        assertEquals(200.0, paino.calcMarkUp(), 0.01);
+    }
 }

@@ -1,8 +1,9 @@
 package Instruments;
 
 import behaviours.IPlay;
+import behaviours.ISell;
 
-public class Paino extends Instrument implements IPlay {
+public class Paino extends Instrument implements IPlay, ISell {
     private double numOfKeys;
     public Paino(String colour, String type, double buyPrice, double sellPrice, String brand, double numOfKeys) {
         super(colour, type, buyPrice, sellPrice, brand);
@@ -15,5 +16,9 @@ public class Paino extends Instrument implements IPlay {
 
     public String play() {
         return "Ding Dong";
+    }
+    public double calcMarkUp() {
+        double result = (getSellPrice()/getBuyPrice()) * 100;
+        return result;
     }
 }
