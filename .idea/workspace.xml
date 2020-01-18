@@ -45,12 +45,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SaxTest.canGetNumOfValves">
+  <component name="RunManager" selected="JUnit.GuitarTest.canPlay">
     <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicShop" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GuitarTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuitarTest.canPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
+      <option name="METHOD_NAME" value="canPlay" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuitarTest.canPlay" />
         <item itemvalue="JUnit.SaxTest.canGetNumOfValves" />
         <item itemvalue="JUnit.PianoTest.canGetNumOfKeys" />
         <item itemvalue="JUnit.GuitarTest" />

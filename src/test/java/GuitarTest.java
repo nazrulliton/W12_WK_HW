@@ -35,5 +35,9 @@ public class GuitarTest {
     public void hasNumOfStrings(){
         assertEquals(10.00, guitar.getNumOfStrings(),0.01);
     }
+    @Test
+    public void canPlay(){
+        assertEquals("Braap braap", guitar.play());
+    }
 
 }
