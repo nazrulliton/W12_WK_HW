@@ -41,7 +41,7 @@ public class GuitarTest {
     }
     @Test
     public void checkMarkUp(){
-        assertEquals(200.0, guitar.calcMarkUp(), 0.01);
+        assertEquals(10.0, guitar.calcMarkUp(), 0.01);
     }
 
 }

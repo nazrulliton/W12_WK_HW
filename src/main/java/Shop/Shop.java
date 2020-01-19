@@ -37,4 +37,6 @@ public class Shop {
     public double getTill() {
         return till;
     }
+
+
 }
