@@ -59,5 +59,10 @@ public class GuitarTest {
         guitar.setSellPrice(5.00);
         assertEquals(5.00, guitar.getSellPrice(), 0.01);
     }
+    @Test
+    public void canSetNumOfStrings(){
+        guitar.setNumOfStrings(9.0);
+        assertEquals(9.00, guitar.getNumOfStrings(), 0.01);
+    }
 
 }

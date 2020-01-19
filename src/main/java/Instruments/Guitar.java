@@ -25,4 +25,8 @@ public class Guitar  extends Instrument implements IPlay, ISell {
         double result = getSellPrice() - getBuyPrice();
         return result;
     }
+    public void setNumOfStrings(double numOfStrings) {
+        this.numOfStrings = numOfStrings;
+    }
+
 }
