@@ -2,12 +2,12 @@ package Instruments;
 
 public abstract class Instrument {
     private  String colour;
-    private  String type;
+    private  InstrumentTypes type;
     private  double buyPrice;
     private  double sellPrice;
     private String brand;
 
-    public Instrument(String colour, String type, double buyPrice, double sellPrice, String brand){
+    public Instrument(String colour, InstrumentTypes type, double buyPrice, double sellPrice, String brand){
         this.colour = colour;
         this.type = type;
         this.buyPrice = buyPrice;
@@ -24,7 +24,7 @@ public abstract class Instrument {
         this.colour = colour;
     }
 
-    public String getType() {
+    public InstrumentTypes getType() {
         return type;
     }
 
