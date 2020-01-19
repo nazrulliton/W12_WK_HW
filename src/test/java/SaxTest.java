@@ -20,6 +20,6 @@ public class SaxTest {
     }
     @Test
     public void checkMarkUp(){
-        assertEquals(300.0, sax.calcMarkUp(), 0.01);
+        assertEquals(30.0, sax.calcMarkUp(), 0.01);
     }
 }

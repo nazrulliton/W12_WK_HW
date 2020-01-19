@@ -18,7 +18,7 @@ public class Sax extends Instrument implements IPlay, ISell {
         return "Dadaada";
     }
     public double calcMarkUp() {
-        double result = (getSellPrice()/getBuyPrice()) * 100;
+        double result = getSellPrice() - getBuyPrice();
         return result;
     }
 }
