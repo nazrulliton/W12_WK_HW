@@ -5,7 +5,7 @@ import behaviours.ISell;
 
 public class Sax extends Instrument implements IPlay, ISell {
     private double numOfValves;
-    public Sax(String colour, String type, double buyPrice, double sellPrice, String brand, double numOfValves) {
+    public Sax(String colour, InstrumentTypes type, double buyPrice, double sellPrice, String brand, double numOfValves) {
         super(colour, type, buyPrice, sellPrice, brand);
         this.numOfValves = numOfValves;
     }

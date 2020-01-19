@@ -6,7 +6,7 @@ import behaviours.ISell;
 public class Guitar  extends Instrument implements IPlay, ISell {
         private double numOfStrings;
 
-    public Guitar(String colour, String type, double buyPrice, double sellPrice, String brand, double numOfStrings) {
+    public Guitar(String colour, InstrumentTypes type, double buyPrice, double sellPrice, String brand, double numOfStrings) {
         super(colour, type, buyPrice, sellPrice, brand);
         this.numOfStrings = numOfStrings;
     }
