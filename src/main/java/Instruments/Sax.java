@@ -17,6 +17,7 @@ public class Sax extends Instrument implements IPlay, ISell {
     public String play() {
         return "Dadaada";
     }
+
     public double calcMarkUp() {
         double result = getSellPrice() - getBuyPrice();
         return result;

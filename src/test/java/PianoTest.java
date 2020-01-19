@@ -1,3 +1,4 @@
+import Instruments.InstrumentTypes;
 import Instruments.Paino;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,7 +9,7 @@ public class PianoTest {
     Paino paino;
     @Before
     public void before(){
-        paino = new Paino("Black", "paino", 20.00, 40.00, "Helms", 40 );
+        paino = new Paino("Black", InstrumentTypes.METAL, 20.00, 40.00, "Helms", 40 );
     }
     @Test
     public void canGetNumOfKeys(){

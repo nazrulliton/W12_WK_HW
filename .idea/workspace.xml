@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c54952ce-97a7-48d8-8797-abb4da257e2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruments/InstrumentTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Sax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Sax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PianoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SaxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SaxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

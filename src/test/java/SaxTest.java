@@ -1,3 +1,4 @@
+import Instruments.InstrumentTypes;
 import Instruments.Sax;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,7 +9,7 @@ public class SaxTest {
     Sax sax;
     @Before
     public void before(){
-        sax = new Sax ("Red", "sax", 15.00, 45.00, "Dopsi", 30);
+        sax = new Sax ("Red", InstrumentTypes.VALVE, 15.00, 45.00, "Dopsi", 30);
     }
     @Test
     public void canGetNumOfValves(){

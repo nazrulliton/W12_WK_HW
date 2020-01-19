@@ -1,4 +1,5 @@
 import Instruments.Guitar;
+import Instruments.InstrumentTypes;
 import Instruments.Sax;
 import Shop.Shop;
 import org.junit.Before;
@@ -15,8 +16,8 @@ public class ShopTest {
     @Before
     public void before(){
         shop = new Shop("Music", 100.00);
-        guitar = new Guitar("red", "Guitar", 10.00, 20.00, "Nike", 10.00);
-        sax = new Sax("Red", "sax", 15.00, 45.00, "Dopsi", 30);
+        guitar = new Guitar("red", InstrumentTypes.STRING, 10.00, 20.00, "Nike", 10.00);
+        sax = new Sax("Red", InstrumentTypes.VALVE, 15.00, 45.00, "Dopsi", 30);
         shop.addToStock(sax);
         shop.addToStock(guitar);
     }
