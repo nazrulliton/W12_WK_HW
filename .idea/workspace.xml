@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GuitarTest">
+  <component name="RunManager" selected="JUnit.PianoTest.checkMarkUp">
     <configuration name="All in musicShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicShop" />
       <option name="PACKAGE_NAME" value="" />
@@ -68,11 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PianoTest.checkMarkUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicShop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShopTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="PianoTest" />
+      <option name="METHOD_NAME" value="checkMarkUp" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PianoTest.checkMarkUp" />
         <item itemvalue="JUnit.GuitarTest" />
         <item itemvalue="JUnit.All in musicShop" />
         <item itemvalue="JUnit.ShopTest.canAddToStock" />
         <item itemvalue="JUnit.ShopTest.canRemoveFromStock" />
-        <item itemvalue="JUnit.ShopTest" />
       </list>
     </recent_temporary>
   </component>

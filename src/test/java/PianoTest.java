@@ -20,6 +20,6 @@ public class PianoTest {
     }
     @Test
     public void checkMarkUp(){
-        assertEquals(200.0, paino.calcMarkUp(), 0.01);
+        assertEquals(20.0, paino.calcMarkUp(), 0.01);
     }
 }

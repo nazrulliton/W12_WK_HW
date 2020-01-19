@@ -18,7 +18,7 @@ public class Paino extends Instrument implements IPlay, ISell {
         return "Ding Dong";
     }
     public double calcMarkUp() {
-        double result = (getSellPrice()/getBuyPrice()) * 100;
+        double result = getSellPrice() - getBuyPrice();
         return result;
     }
 }
