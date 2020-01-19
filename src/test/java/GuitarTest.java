@@ -44,5 +44,20 @@ public class GuitarTest {
     public void checkMarkUp(){
         assertEquals(10.0, guitar.calcMarkUp(), 0.01);
     }
+    @Test
+    public void canSetColour(){
+        guitar.setColour("blue");
+        assertEquals("blue", guitar.getColour());
+    }
+    @Test
+    public void canSetBuyPrice(){
+        guitar.setBuyPrice(15.00);
+        assertEquals( 15.00, guitar.getBuyPrice(), 0.01);
+    }
+    @Test
+    public void canSetSellPrice(){
+        guitar.setSellPrice(5.00);
+        assertEquals(5.00, guitar.getSellPrice(), 0.01);
+    }
 
 }

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c54952ce-97a7-48d8-8797-abb4da257e2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Sax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Sax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PianoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SaxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SaxTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,29 +50,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest.canGetPotentialProfit">
-    <configuration name="All in musicShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="musicShop" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GuitarTest.canSetSellPrice">
+    <configuration name="GuitarTest.canSetBuyPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicShop" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GuitarTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="canSetBuyPrice" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PianoTest.checkMarkUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GuitarTest.canSetColour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="musicShop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PianoTest" />
-      <option name="METHOD_NAME" value="checkMarkUp" />
+      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
+      <option name="METHOD_NAME" value="canSetColour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuitarTest.canSetSellPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="musicShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
+      <option name="METHOD_NAME" value="canSetSellPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuitarTest.canSetSellPrice" />
+        <item itemvalue="JUnit.GuitarTest.canSetBuyPrice" />
+        <item itemvalue="JUnit.GuitarTest.canSetColour" />
         <item itemvalue="JUnit.ShopTest.canGetPotentialProfit" />
         <item itemvalue="JUnit.SaxTest.checkMarkUp" />
-        <item itemvalue="JUnit.PianoTest.checkMarkUp" />
-        <item itemvalue="JUnit.GuitarTest" />
-        <item itemvalue="JUnit.All in musicShop" />
       </list>
     </recent_temporary>
   </component>

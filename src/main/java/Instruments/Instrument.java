@@ -20,6 +20,7 @@ public abstract class Instrument {
         return colour;
     }
 
+
     public void setColour(String colour) {
         this.colour = colour;
     }
